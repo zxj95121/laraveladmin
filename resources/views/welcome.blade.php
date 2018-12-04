@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,minimal-ui">
 <meta name="format-detection" content="telephone=no">
-<title>深圳意想交通|深圳小区划线|工业区划线|工业区定位器|道路标配|道路停车场标识|道路停车场标牌|停车场灯箱标牌</title>
+<title>{{$web_name}}</title>
 <meta name="description" content="一家致力于交通设施产品和智能建筑一卡通领域的研发、生产、销售、安装、服务为一体的技术企业。公司专业生产智能停车场收费系统、智能道闸、人行通道闸、岗亭、门禁监控、伸缩门以及道路标示牌、减速坡、广角镜、车轮挡轮器、护墙角、防护桩、车位锁等交通设施产品。专业承接：智能停车场车牌自动识别系统工程、停车场车位划线及环氧地坪工程、道路交通标线标牌工程等交通设施工程施工，经国家技术监督部门检验，产品的技术含量及外观造型已达世界先进水平。">
 <meta name="keywords" content="深圳意想交通|深圳小区划线|工业区划线|工业区定位器|道路标配|道路停车场标识|道路停车场标牌|停车场灯箱标牌">
 <meta name="generator" content="MetInfo 6.1.3" data-variable="http://www.szjtong.com/|cn|cn|mui097|10001|10001|0" data-user_name="">
@@ -47,10 +47,8 @@ body{
     <nav class="head_nav_met_11_6">
         <div class="nav-logo">
                 <h1 hidden>深圳意想交通|深圳小区划线|工业区划线|工业区定位器|道路标配|道路停车场标识|道路停车场标牌|停车场灯箱标牌</h1>
-                    <a href="index.htm" tppabs="http://www.szjtong.com/" class="met-logo" title="深圳意想交通|深圳小区划线|工业区划线|工业区定位器|道路标配|道路停车场标识|道路停车场标牌|停车场灯箱标牌">
-                            <img src="/web/upload/201804/1523162725.png" tppabs="http://www.szjtong.com/upload/201804/1523162725.png" alt="深圳意想交通|深圳小区划线|工业区划线|工业区定位器|道路标配|道路停车场标识|道路停车场标牌|停车场灯箱标牌" class="logo-1">
-                                                                                            <img src="/web/upload/201804/1523162725.png" tppabs="http://www.szjtong.com/upload/201804/1523162725.png" alt="深圳意想交通|深圳小区划线|工业区划线|工业区定位器|道路标配|道路停车场标识|道路停车场标牌|停车场灯箱标牌" class="logo-2">
-                                <img src="" alt="深圳意想交通|深圳小区划线|工业区划线|工业区定位器|道路标配|道路停车场标识|道路停车场标牌|停车场灯箱标牌" class="logo-2-mobile">
+                    <a href="/" class="met-logo" title="{{$web_name}}">
+                            <img src="{{$web_image}}" alt="{{$web_name}}">
                     </a>
         </div>
         <div class="nav-box">
@@ -72,7 +70,7 @@ body{
                 <i class="icon pe-close"></i>
             </div>
                                 <div class="logo-2">
-                                                <img src="/web/upload/201804/1523162725.png" tppabs="http://www.szjtong.com/upload/201804/1523162725.png" alt="" class="logo-p">
+                                                <img src="{{$web_image}}" tppabs="http://www.szjtong.com/upload/201804/1523162725.png" alt="" class="logo-p">
                         <img src="" alt="" class="logo-m">
                 </div>
                         <ul class="navlist ">
@@ -642,22 +640,21 @@ body{
         </div>
         <div class="right">
             <div class="text">
-                                        <p class="m-b-0">深圳意想交通|深圳小区划线|工业区划线|工业区定位器|道路标配|道路停车场标识|道路停车场标牌|停车场灯箱标牌</p>
-                                                                                                <p class="m-b-0"><p>© CopyRight 2002-2018, SZJTONG.COM, Inc.All Rights Reserved&nbsp;<a href="javascript:if(confirm('http://www.miitbeian.gov.cn/publish/query/indexFirst.action  \n\nكτݾϞרԃ Teleport Ultra Ђ՘, ӲΪ ̼ˇһٶԲܲ·޶΢ҿѻʨ׃Ϊ̼քǴʼַ֘քַ֘c  \n\nţЫ՚ؾϱǷʏղߪ̼?'))window.location='http://www.miitbeian.gov.cn/publish/query/indexFirst.action'" tppabs="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank">&nbsp;粤ICP备18033472号</a></p></p>
-                                                        <p class="m-b-0">公司专业生产智能停车场收费系统、智能道闸、人行通道闸、岗亭、门禁监控、伸缩门以及道路标示牌、减速坡、广角镜、车轮挡轮器、护墙角、防护桩、车位锁等交通设施产品。专业承接：智能停车场车牌自动识别系统工程、停车场车位划线及环氧地坪工程、道路交通标线标牌工程等交通设施工程施工</p>
+                <p class="m-b-0">{{$web_name}}</p>
+                <p class="m-b-0"><p>© CopyRight 2002-2018, SZJTONG.COM, Inc.All Rights Reserved&nbsp;<a href="javascript:if(confirm('http://www.miitbeian.gov.cn/publish/query/indexFirst.action  \n\nكτݾϞרԃ Teleport Ultra Ђ՘, ӲΪ ̼ˇһٶԲܲ·޶΢ҿѻʨ׃Ϊ̼քǴʼַ֘քַ֘c  \n\nţЫ՚ؾϱǷʏղߪ̼?'))window.location='http://www.miitbeian.gov.cn/publish/query/indexFirst.action'" tppabs="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank">&nbsp;粤ICP备18033472号</a></p></p>
+                <p class="m-b-0">公司专业生产智能停车场收费系统、智能道闸、人行通道闸、岗亭、门禁监控、伸缩门以及道路标示牌、减速坡、广角镜、车轮挡轮器、护墙角、防护桩、车位锁等交通设施产品。专业承接：智能停车场车牌自动识别系统工程、停车场车位划线及环氧地坪工程、道路交通标线标牌工程等交通设施工程施工</p>
                             </div>
             <div class="social">
                     <!--QQ-->  
-                                                                        <a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=563425352&site=qq&menu=yes  \n\nكτݾϞרԃ Teleport Ultra Ђ՘, ӲΪ ̼ˇһٶԲܲ·޶΢ҿѻʨ׃Ϊ̼քǴʼַ֘քַ֘c  \n\nţЫ՚ؾϱǷʏղߪ̼?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=563425352&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=563425352&site=qq&menu=yes" >
-                                                <i class="fa fa-qq"></i>
+                <a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=563425352&site=qq&menu=yes  \n\nكτݾϞרԃ Teleport Ultra Ђ՘, ӲΪ ̼ˇһٶԲܲ·޶΢ҿѻʨ׃Ϊ̼քǴʼַ֘քַ֘c  \n\nţЫ՚ؾϱǷʏղߪ̼?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=563425352&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=563425352&site=qq&menu=yes" >
+                    <i class="fa fa-qq"></i>
                 </a>
 <!--QQ-->  
                                                         <!--邮箱-->  
                 <a href="mailto:xxmmail@foxmail.com">
                     <i class="fa fa-envelope"></i>
                 </a>
-<!--邮箱-->  
-                                                                                                                <!--微信-->  
+<!--邮箱-->                                                                                                                <!--微信-->  
                 <a id="met-weixin" data-plugin="webuiPopover" data-trigger="hover" data-animation="pop" data-placement='top' data-width='155' data-padding='0' data-content="<div class='text-xs-center'>
                     <img src='http://www.szjtong.com/upload/201806/1529592056.jpg' alt='深圳意想交通|深圳小区划线|工业区划线|工业区定位器|道路标配|道路停车场标识|道路停车场标牌|停车场灯箱标牌' width='150' height='150' id='met-weixin-img'></div>
                 ">
